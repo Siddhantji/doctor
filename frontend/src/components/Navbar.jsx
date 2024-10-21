@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import{assets} from '../assets/assets'
 import { NavLink, useNavigate } from 'react-router-dom'
 
@@ -31,7 +31,7 @@ const Navbar = () => {
         </ul>
         <div className='flex items-center gap-4'>
             {
-                token
+                token 
                 ? <div className='flex items-center gap-2 cursor-pointer group relative'>
                     <img className='w-8 rounded-full' src={assets.profile_pic} alt="" />
                     <img className='w-2.5' src={assets.dropdown_icon} alt="" />

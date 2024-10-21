@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Header from '../components/Header'
 import Specialty from '../components/Specialty'
 import TopDoctors from '../components/TopDoctors'
